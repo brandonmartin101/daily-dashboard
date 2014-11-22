@@ -1,0 +1,20 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.lead {
+  background-color: white;
+  border-radius: 5px;
+}
