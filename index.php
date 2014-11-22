@@ -8,4 +8,7 @@
     include("tasksView.html");
   }
 
+  include("scripts.js");
+  include("style.css");
+
 ?>

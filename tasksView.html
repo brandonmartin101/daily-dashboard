@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daily Dashboard</title>
 
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <!-- Additional styling -->
@@ -42,17 +44,17 @@
         <div class="col-md-6 col-md-offset-3">
           <!-- Checklist (Asana Projects) -->
           <h2>Asana Projects</h2>
-          <ul>
-            <li>Project task</li>
-            <li>Project task</li>
-            <li>Project task</li>
+          <ul id="asanaSortable">
+            <li class="asana">Project task</li>
+            <li class="asana">Project task</li>
+            <li class="asana">Project task</li>
           </ul>
           <!-- Checklist (Dailies) -->
           <h2>Dailies</h2>
-          <ul>
-            <li>Daily task</li>
-            <li>Daily task</li>
-            <li>Daily task</li>
+          <ul id="dailySortable">
+            <li class="daily">Daily task</li>
+            <li class="daily">Daily task</li>
+            <li class="daily">Daily task</li>
           </ul>
         </div>
       </div>
@@ -60,6 +62,8 @@
   </body>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- jQuery UI -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <!-- Custom scripts -->
